@@ -4,6 +4,7 @@
 <h1>v3</h1>
 
 <form method="POST" action="/auth?/login">
+	<input type="hidden" name="foo" value="bar" />
 	<button>Login</button>
 </form>
 
