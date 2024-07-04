@@ -14,7 +14,7 @@ const config = {
 		adapter: azure({
 			customStaticWebAppConfig: {
 				platform: {
-					apiRuntime: 'node:20'
+					apiRuntime: 'node:18'
 				}
 			}
 		})
