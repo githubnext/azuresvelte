@@ -15,9 +15,13 @@ const config = {
 			customStaticWebAppConfig: {
 				platform: {
 					apiRuntime: 'node:18'
-				}
+				},
+
 			}
-		})
+		}),
+		csrf: {
+			checkOrigin: false
+		}
 	}
 };
 
